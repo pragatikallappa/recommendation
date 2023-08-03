@@ -38,7 +38,7 @@ def load_data():
 
 tfidf = load_data()
 
-with open("movies_list_small.pickle", "rb") as f:
+with open("movie_list_small.pickle", "rb") as f:
   movies = pickle.load(f)
 
 dataframe = None
